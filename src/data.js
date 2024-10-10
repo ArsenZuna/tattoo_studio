@@ -195,7 +195,7 @@ export const footerData = {
       'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
     address: {
       icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
+      name: 'Rruga Sami Frashëri',
     },
     phone: {
       icon: <FaPhoneAlt />,
@@ -203,7 +203,7 @@ export const footerData = {
     },
     email: {
       icon: <FaEnvelope />,
-      address: 'contact@yourcompany.com',
+      address: 'garageartstudio@gmail.com',
     },
   },
   links: {
