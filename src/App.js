@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import components
 import Hero from './components/Hero';
 import Header from './components/Header';
 import About from './components/About';
@@ -16,13 +15,13 @@ const App = () => {
   return (
     <div className='max-w-[1920px] mx-auto overflow-hidden bg-white'>
       <Header />
-      <Hero />
-      <About />
-      <GallerySection />
-      <Skills />
-      <Testimonial />
-      <Interview />
-      <Contact />
+      <section id="home"><Hero /></section>
+      <section id="about"><About /></section>
+      <section id="gallery"><GallerySection /></section>
+      <section id="skills"><Skills /></section>
+      <section id="testimonial"><Testimonial /></section>
+      <section id="interview"><Interview /></section>
+      <section id="contact"><Contact /></section>
       <Footer />
       <Copyright />
     </div>

@@ -21,7 +21,7 @@ const ContactItem = ({ title, subtitle, address, phone, email, link }) => (
 				<div className='font-medium'>{email.address}</div>
 			</div>
 		</div>
-		<a className='font-medium border-b border-dark pb-[5px]' href='#'>{link}</a>
+		<a className='font-medium border-b border-dark pb-[5px]' href='/'>{link}</a>
 	</div>
 );
 

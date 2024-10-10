@@ -24,12 +24,12 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`${isActive ? 'h-[100px] shadow-lg' : 'h-[120px] lg:h-[150px]'} fixed
-            bg-whiteleft-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}>
+    <header className={`${isActive ? 'h-[120px] shadow-lg' : 'h-[140px] lg:h-[150px]'} fixed
+            bg-white left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}>
       <div className='flex justify-between items-center h-full pl-[50px] pr-[60px]'>
         {/* logo */}
         <a href='/'>
-          <img className='w-[188px] h-[90px]' src={logo} alt='logo'/>
+          <img className='w-[110px] h-[110px]' src={logo} alt='logo'/>
         </a>
         <div className='hidden xl:flex'>
           <Nav/>

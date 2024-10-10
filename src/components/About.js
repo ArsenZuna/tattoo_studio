@@ -8,7 +8,7 @@ import {fadeIn} from "../variants";
 
 const About = () => {
   //destructure data
-  const {title, subtitle1, subtitle2, btnText, btnIcon} = aboutData
+  const {title, subtitle1, subtitle2} = aboutData
 
   return (
   <section className='lg:py-16 xl:pb-[160px]'>
